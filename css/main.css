@@ -27,6 +27,9 @@
 
 .hero-content {
   background-color: rgba(220, 220, 220, 0.5);
-  opacity: .6;
   color: #ffffff;
+}
+
+.action{
+  margin: auto;
 }
