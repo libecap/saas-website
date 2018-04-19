@@ -1,0 +1,32 @@
+.pink {
+  background-color: rgba(227, 171, 171, 0.5);
+  opacity:
+}
+
+.pink ul {
+  color: #ffffff;
+}
+
+.nav-bar {
+  background-image: url(../images/crown.png);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center center;
+
+}
+
+.unica {
+  font-family: 'Unica One', cursive;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+.hero-content {
+  background-color: rgba(220, 220, 220, 0.5);
+  opacity: .6;
+  color: #ffffff;
+}
