@@ -3,7 +3,16 @@
   opacity:
 }
 
-.pink ul {
+.gray {
+  background-color: #616369;
+
+}
+
+.contact ul {
+  color: #e3abab;
+}
+
+.copyright {
   color: #ffffff;
 }
 
@@ -32,4 +41,9 @@
 
 .action{
   margin: auto;
+}
+
+
+.social:hover {
+  color: #6474FF;
 }
