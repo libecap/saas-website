@@ -1,5 +1,5 @@
 .pink {
-  background-color: rgba(227, 171, 171, 0.5);
+  background-color: rgba(227, 171, 171);
   opacity:
 }
 
@@ -16,7 +16,7 @@
   color: #ffffff;
 }
 
-.nav-bar {
+.crown {
   background-image: url(../images/crown.png);
   background-size: 50px;
   background-repeat: no-repeat;
@@ -32,7 +32,9 @@
   font-family: 'Lato', sans-serif;
 }
 
-
+.navigation {
+  text-decoration: none;
+}
 
 .hero-content {
   background-color: rgba(220, 220, 220, 0.5);
@@ -46,4 +48,16 @@
 
 .social:hover {
   color: #6474FF;
+}
+
+.signup h1{
+  color: #ffffff;
+}
+
+fieldset {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000000;
 }
