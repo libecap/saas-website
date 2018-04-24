@@ -61,7 +61,6 @@ fieldset {
 a:visited {
   color: #000000;
 }
-
 .nav {
   margin: 0;
   padding: 0;
@@ -69,6 +68,19 @@ a:visited {
   background-color: #ccc;
   display: none;
   position: absolute;
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+  width: 49.2%;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  text-decoration: none;
+  color: #000;
   width: 100%;
 }
 
@@ -108,4 +120,29 @@ a:visited {
 
 .nav-check:checked ~ label .nav-close {
   display: block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .nav {
+    width: 100%;
+    display: block;
+    top: 85%;
+  }
+
+
+  .nav li {
+    display: inline-block;
+    width: 25%;
+  }
+
+  .nav a {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .nav-check,
+  .nav-label {
+    display: none;
+  }
 }
