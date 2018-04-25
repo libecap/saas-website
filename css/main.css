@@ -122,6 +122,20 @@ a:visited {
   display: block;
 }
 
+.action-btn a {
+  color: #6474FF;
+  background-color: #616369;
+  border-color: #616369;
+
+}
+.action-btn a:hover {
+  background-color: #6474FF;
+  border-color: #6474FF;
+  transform: translateY(-4px);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
+}
+
+
 @media only screen and (min-width: 25em) {
 
   .nav {
