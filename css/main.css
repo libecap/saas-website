@@ -27,6 +27,10 @@
   background-color: rgb(227, 171, 171);
 }
 
+.pink-body {
+  background-color: rgba(227, 171, 171, .45);
+}
+
 .gray {
   background-color: #616369;
 }
