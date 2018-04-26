@@ -12,8 +12,12 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
 <body class="main">
-  <header class="banner">
-    <nav class="navigation">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header class="banner" role="banner">
+    <nav class="navigation" role="navigation" id="nav" tabindex="0">
       <ul class=" grid list-group-inline push-0 gutter-1-2 nav text-center">
         <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="index.html">Crown Designs</a></li>
         <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="pricing.html">Pricing</a></li>
@@ -22,12 +26,15 @@
       </ul>
     </nav>
   </header>
-    <div class="signup pink text-center gutter-1-2">
-      <h1 class="push-none max-length pad-t-2 lato"><b>Pricing</b></h1>
-      <p class="pad-t-1-2 max-length pad-b-2 push-0 lato">Start with standard and if you love the way your website works...go pro!</p>
-    </div>
+  <div class="banner embed embed-24by10">
+    <img class="img-flex embed-item" src="images/pricing.jpg" alt="pricing">
+  </div>
+  <div class="signup pink text-center gutter-1-2">
+    <h1 class="push-none max-length pad-t-2 lato"><b>Pricing</b></h1>
+    <p class="pad-t-1-2 max-length pad-b-2 push-0 lato">Start with standard and if you love the way your website works...go pro!</p>
+  </div>
   <!--Website-->
-  <main class="wrapper pad-t-2 pad-b-2 gutter-1-2">
+  <main class="wrapper pad-t-2 pad-b-2 gutter-1-2" role="main" id="main" tabindex="0">
     <section class="grid grid-middle push">
       <div class="unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
         <h2>Website</h2>
@@ -89,7 +96,7 @@
         <img src="images/two-comp.jpg" alt="computer-workspace">
       </div>
     </section>
-      <!--Online store-->
+    <!--Online store-->
     <section class="grid grid-middle">
       <div class="img-flex unit unit-xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
         <img src="images/apron.jpg" alt="craftsman">
@@ -130,47 +137,48 @@
             </thead>
             <tbody>
               <tr>
-              <td colspan="3">
-                <ul class="list-group">
-                  <li class="push-0 island-1-8 milli">-Accept credit cards worldwide</li>
-                  <li class="push-0 island-1-8 milli">-Process shipping costs and invoices</li>
-                </ul>
-              </td>
-              <td>
-                <ul class="list-group">
-                  <li class="push-0 island-1-8 milli">$46</li>
-                  <li class="push-0 island-1-8 milli">a month</li>
-                </ul>
-              </td>
+                <td colspan="3">
+                  <ul class="list-group">
+                    <li class="push-0 island-1-8 milli">-Accept credit cards worldwide</li>
+                    <li class="push-0 island-1-8 milli">-Process shipping costs and invoices</li>
+                  </ul>
+                </td>
+                <td>
+                  <ul class="list-group">
+                    <li class="push-0 island-1-8 milli">$46</li>
+                    <li class="push-0 island-1-8 milli">a month</li>
+                  </ul>
+                </td>
               </tr>
-          </table>
+            </table>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
     </section>
+    <!--button-->
+    <div class="action-btn push-1-2 pad-t text-center center-flow">
+      <a class="btn link-box" href="sign-up.html">Create</a>
+    </div>
 </main>
-
-  <!--button-->
-  <a class="btn link-box" href="sign-up.html" alt="sign up">Create</a>
   <!--footer-->
-  <footer class="grid grid-middle contentinfo gray contact island-1-2 push-0">
+  <footer class="grid grid-middle contentinfo gray contact island-1-2 push-0" role="contentinfo">
     <!--use font awesome-->
     <ul class="list-group-inline unit list-group-inline unit-xs-1 s-1 m-1 l-1 xl-1 push">
       <li class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 pad-b-1-4 lato peta">Contact</li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fas fa-envelope-square" alt="mail"></i>
+        <i class="fas fa-envelope-square"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fab fa-facebook" alt="facebook"></i>
+        <i class="fab fa-facebook"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fab fa-twitter-square" alt="twitter"></i>
+        <i class="fab fa-twitter-square"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fab fa-google" alt="google"></i>
+        <i class="fab fa-google"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fas fa-phone-square" alt="call"></i>
+        <i class="fas fa-phone-square"></i>
       </li>
     </ul>
     <div class="unit unit-xs-1 s-1 m-1 l-1 xl-1 lato push-0 micro copyright text-right">

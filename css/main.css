@@ -23,15 +23,12 @@
   text-align: center;
 }
 
-
 .pink {
-  background-color: rgba(227, 171, 171);
-  opacity:
+  background-color: rgb(227, 171, 171);
 }
 
 .gray {
   background-color: #616369;
-
 }
 
 .contact ul {
@@ -39,36 +36,31 @@
 }
 
 .copyright {
-  color: #ffffff;
+  color: #fff;
 }
 
 .crown {
-  background-image: url(../images/crown.png);
+  background-image: url("../images/crown.png");
   background-size: 50px;
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 .unica {
-  font-family: 'Unica One', cursive;
+  font-family: "Unica One", cursive;
 }
 
 .lato {
-  font-family: 'Lato', sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .navigation {
   text-decoration: none;
-}
-
-.navigation {
-  background-color: #B0B0B0;
+  background-color: #b0b0b0;
 }
 
 .navigation a:hover {
-  background-color: #6474FF;
-  border-color: #6474FF;
+  background-color: #6474ff;
   transform: translateY(-4px);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
   border: solid;
@@ -77,21 +69,20 @@
 }
 
 .hero-content {
-  background-color: rgba(220, 220, 220, 0.5);
-  color: #ffffff;
+  background-color: rgba(220, 220, 220, .5);
+  color: #fff;
 }
 
-.action{
+.action {
   margin: auto;
 }
 
-
 .social:hover {
-  color: #6474FF;
+  color: #6474ff;
 }
 
-.signup h1{
-  color: #ffffff;
+.signup h1 {
+  color: #fff;
 }
 
 fieldset {
@@ -99,22 +90,34 @@ fieldset {
 }
 
 a:visited {
-  color: #000000;
+  color: #000;
 }
 
 .action-btn a {
-  color: #6474FF;
+  color: #fff;
   background-color: #616369;
   border-color: #616369;
-
 }
+
 .action-btn a:hover {
-  background-color: #6474FF;
-  border-color: #6474FF;
+  background-color: #6474ff;
+  border-color: #6474ff;
   transform: translateY(-4px);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, .24), 0 17px 50px 0 rgba(0, 0, 0, .19);
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.nav a:focus {
+  outline: 3px solid #000;
+}
 
 @media only screen and (min-width: 25em) {
 
@@ -123,7 +126,6 @@ a:visited {
     display: block;
     top: 0%;
   }
-
 
   .nav li {
     display: inline-block;
@@ -139,4 +141,5 @@ a:visited {
   .nav-label {
     display: none;
   }
+
 }

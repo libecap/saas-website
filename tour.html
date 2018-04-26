@@ -11,21 +11,28 @@
   <link href="https://fonts.googleapis.com/css?family=Lato|Unica+One" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 </head>
-<header class="banner">
-  <nav class="navigation">
-    <ul class=" grid list-group-inline push-0 gutter-1-2 nav text-center">
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="index.html">Crown Designs</a></li>
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="pricing.html">Pricing</a></li>
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="tour.html">Tour</a></li>
-      <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="sign-up.html">Sign-up</a></li>
-    </ul>
-  </nav>
-  <div class="pad-t-2">
-    <h1 class="center-flow crown unica pad-t-2">Getting Started</h1>
-  </div>
-</header>
 <body class="main">
-  <main class="wrapper">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header class="banner" role="banner">
+    <nav class="navigation" role="navigation" id="nav" tabindex="0">
+      <ul class=" grid list-group-inline push-0 gutter-1-2 nav text-center">
+        <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="index.html">Crown Designs</a></li>
+        <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="pricing.html">Pricing</a></li>
+        <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="tour.html">Tour</a></li>
+        <li class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 lato micro"><a class="link-box island-1-4" href="sign-up.html">Sign-up</a></li>
+      </ul>
+    </nav>
+    <div class="banner embed embed-24by10">
+      <img class="img-flex embed-item" src="images/started.jpg" alt="tour">
+    </div>
+  </header>
+  <main class="wrapper" role="main" id="main" tabindex="0">
+    <div class="pad-t">
+      <h1 class="center-flow crown unica pad-t unica">Getting Started</h1>
+    </div>
     <section class="grid">
       <figure class="unit unit-xs-1 s-1 m-1-2 l-1-2 xl-1-2 gutter-1-4">
         <img class="img-flex" src="images/step-by-step.png" alt="step-by-step">
@@ -37,53 +44,82 @@
       </figure>
     </section>
     <!--templates-->
+    <div class="text-center">
+      <h2 class="unica exa">TEMPLATES</h2>
+    </div>
     <section class="grid">
       <figure class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 gutter-1-4">
         <img class="img-flex" src="images/the-professional.png" alt="professional">
-        <figcaption class= "text-center pad-t-1-2 lato">The Professional</figcaption>
+        <figcaption class="text-center pad-t-1-2 lato">The Professional</figcaption>
       </figure>
       <figure class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 gutter-1-4">
         <img class="img-flex" src="images/retro-look.png" alt="retro">
-        <figcaption class= "text-center pad-t-1-2 lato">The Retro Look</figcaption>
+        <figcaption class="text-center pad-t-1-2 lato">The Retro Look</figcaption>
       </figure>
       <figure class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 gutter-1-4">
         <img class="img-flex" src="images/regal.png" alt="regal">
-        <figcaption class= "text-center pad-t-1-2 lato">Feeling Regal</figcaption>
+        <figcaption class="text-center pad-t-1-2 lato">Feeling Regal</figcaption>
       </figure>
       <figure class="unit unit-xs-1-2 s-1-2 m-1-4 l-1-4 xl-1-4 gutter-1-4">
         <img class="img-flex" src="images/space-cadet.png" alt="sci-fi">
-        <figcaption class= "text-center pad-t-1-2 lato">Space Cadet</figcaption>
+        <figcaption class="text-center pad-t-1-2 lato">Space Cadet</figcaption>
       </figure>
     </section>
-<!--button-->
+    <section>
+      <div class="table-wrapper scrollable">
+        <table class="push-0">
+          <caption class="mega">NASA has announced the discovery of over 1000 exoplanets—below are five important discoveries.</caption>
+          <thead>
+            <tr>
+              <th class="name" scope="col">Name</th>
+              <th class="star" scope="col">Orbiting star</th>
+              <th class="year" scope="col">Year of discovery</th>
+              <th class="distance" scope="col">Distance</th>
+              <th class="notes" scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="not-bold italic" scope="row">PSR B1257+12 A</th>
+              <td>Lich pulsar</td>
+              <td>1992</td>
+              <td>2300 ly</td>
+              <td>First confirmed exoplanet</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!--button-->
     <div class="action-btn push text-center">
       <a class="btn unica link-box" href="pricing.html">Check out Pricing</a>
     </div>
   </main>
 
-  <footer class="grid grid-middle contentinfo gray contact island-1-2 push-0">
+  <footer class="grid grid-middle contentinfo gray contact island-1-2 push-0" role="contentinfo">
     <!--use font awesome-->
     <ul class="list-group-inline unit list-group-inline unit-xs-1 s-1 m-1 l-1 xl-1 push">
       <li class="unit unit-xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 pad-b-1-4 lato peta">Contact</li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fas fa-envelope-square" alt="mail"></i>
+        <i class="fas fa-envelope-square"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fab fa-facebook" alt="facebook"></i>
+        <i class="fab fa-facebook"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fab fa-twitter-square" alt="twitter"></i>
+        <i class="fab fa-twitter-square"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fab fa-google" alt="google"></i>
+        <i class="fab fa-google"></i>
       </li>
       <li class="unit unit-xs-1-10 s-1-10 m-1-10 l-1-10 xl-1-10 gutter-1-4 social icon-label mega">
-        <i class="fas fa-phone-square" alt="call"></i>
+        <i class="fas fa-phone-square"></i>
       </li>
     </ul>
     <div class="unit unit-xs-1 s-1 m-1 l-1 xl-1 lato push-0 micro copyright text-right">
       <p>© Crown Designs 2018</p>
     </div>
   </footer>
+
 </body>
 </html>
