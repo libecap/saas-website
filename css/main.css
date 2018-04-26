@@ -136,16 +136,35 @@ a:visited {
 }
 
 .standard {
-  border-color: #e3abab;
+  border-color: #6474ff;
   border-width: medium;
   border-style: solid;
+  background-color: #fff;
+}
+
+.standard-fill {
+  background-color: #6474ff;
+}
+
+.dollar {
+  color: #e3abab;
+}
+
+.cost {
+  color: #fff;
 }
 
 .pro {
   border-color: #00ff48;
   border-width: medium;
   border-style: solid;
+  background-color: #fff;
 }
+
+.pro-fill {
+  background-color: #00ff48;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav {
