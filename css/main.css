@@ -135,6 +135,17 @@ a:visited {
   outline: 6px solid #ff69b4;
 }
 
+.standard {
+  border-color: #e3abab;
+  border-width: medium;
+  border-style: solid;
+}
+
+.pro {
+  border-color: #00ff48;
+  border-width: medium;
+  border-style: solid;
+}
 @media only screen and (min-width: 25em) {
 
   .nav {
